@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import { Route, Router, useLocation } from 'react-router-dom'
+import { Route, Routes, useLocation } from 'react-router-dom'
+import Home from './pages/Home';
 
 
 const App = () => {
@@ -11,7 +12,11 @@ const App = () => {
     <div>
       {!isOnwerPath && <Navbar />}
       
-      
+      <div className='main-h-[70vh]'>
+        <Routes>
+          <Route path='/' element={<Home/> } />
+        </Routes>
+      </div>
 
     </div>
   )

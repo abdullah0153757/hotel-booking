@@ -1,12 +1,16 @@
 import React from 'react'
-import Hero from '../components/hero'
+import Hero from '../components/Hero'
+import FeaturedDestination from '../components/FeaturedDestination'
+import ExclusiveOffers from '../components/ExclusiveOffers'
 
 
 
-const Home = () => {
+function Home() {
   return (
     <>
-        <Hero />
+      <Hero />
+      <FeaturedDestination />
+      <ExclusiveOffers />
     </>
   )
 }

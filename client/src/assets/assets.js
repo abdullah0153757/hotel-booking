@@ -115,7 +115,7 @@ export const roomCommonData = [
 // User Dummy Data
 export const userDummyData = {
     "_id": "user_2unqyL4diJFP1E3pIBnasc7w8hP",
-    "username": "Great Stack",
+    "username": "MD Abdullah",
     "email": "user.greatstack@gmail.com",
     "image": "https://img.freepik.com/premium-vector/hotel-logo-design_423075-16.jpg?w=360",
     "role": "hotelOwner",

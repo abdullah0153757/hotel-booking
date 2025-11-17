@@ -12,7 +12,7 @@ app.use(cors()) // Enable Cross-Origin Resource Sharing
 
 
 // Middleware
-app.use(express.json)
+app.use(express.json())
 app.use(clerkMiddleware())
 
 
@@ -20,7 +20,7 @@ app.use(clerkMiddleware())
 app.use("/api/clerk", clerkWebhooks);
 
 
-app.get('/', (req, res)=> res.send("API is working right now"))
+app.get('/', (req, res)=> res.send("API is working right now ok"))
 
 const PORT = process.env.PORT || 3000;
 
